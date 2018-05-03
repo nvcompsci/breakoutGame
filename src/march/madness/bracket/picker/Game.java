@@ -12,7 +12,7 @@ package march.madness.bracket.picker;
 public class Game {
     //Fields
     public int scoreWinner;
-    private int scoreLoser;
+    public int scoreLoser;
     private Team winner;
     private Team loser;
     private Team[] participants;
